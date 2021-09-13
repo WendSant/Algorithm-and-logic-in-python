@@ -7,7 +7,7 @@ v = True
 f = False
 print("Operadores boleanos")
 print('Op. Logico v and f :', v and f)
-print('Op. Logico v or f :', v or f)
+print('Op. Logico v or f :',  (not (3 > 4)) and (False == (3 < 4)))
 print('Op. Logico v and not f :', v and not f)
 
 # Expoente unários
