@@ -44,6 +44,7 @@ while i<n:
     if i>n// 3:
         s+=i
         i+= 1
+
     else:
         print(i,s)
 
