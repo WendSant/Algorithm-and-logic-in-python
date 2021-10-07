@@ -5,7 +5,7 @@ def tedCalc(z, x, y, c):
     elif(c.upper()=="P"):
         print(f"Média ponderada com pesos de 5, 3 e 2: {((z*5+x*3+y*2)/10)}")
     else:
-        print(f"Média harmônica é aproximadamente {(3 / (1/z + 1/x + 1/y))}")
+        print(f"Média harmônica é aproximadamente {(3 / (1/z + 1/x + 1/y)):.2f}")
 
 while True:
     n1= float(input("Insira uma nota \n"))
@@ -15,7 +15,7 @@ while True:
     tedCalc(n1, n2, n3, Caracter)
     repetir = input("Deseja repetir?(s ou n) \n")
     if(repetir.upper()=="N"):
-        print("Programa encerrado")
+        print("Programa Encerrado.")
         break
 
 
